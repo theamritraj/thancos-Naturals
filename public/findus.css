@@ -1,0 +1,125 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2024 theamritraj
+ */
+
+ .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+   }
+  
+   *{
+      
+      padding: 0;
+      margin: 0;
+      /* background-image: url(../assets/images/Banner.jpg); */
+  
+   }
+   header{
+    width: 100%;
+    background-color: #96bb2b;
+    
+  }
+  nav{
+    position: sticky;
+    top: 0px;
+  }
+  
+  .top a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+  
+   }
+   .top a.active {
+    color: #ff6347; /* Color for the active link */
+    font-weight: bold;
+  }
+  .top a:hover{
+    color: #E06464;
+   }
+  
+  .top{
+    font-family:arial,san sans-serif;
+    font-size: 20px;
+    height: 60px;
+    text-align: center;
+    padding: 13px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #00000017;
+    color: #666666;  
+  }
+
+/* 
+  about Section
+*/
+.about{
+    text-align: center;
+    background-color: #970e0f;
+}
+.about-us{
+    background-color: #970e0f;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 200px;
+    
+    font-family: "Cedarville Cursive", cursive;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+  /* 
+  footer-Section
+*/
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    color: white;
+    background: #222222;
+    
+  
+  }
+  .div1, .div2, .div3{
+    height: 230px;
+    width: 250px;
+    margin-top: 70px;
+    font-family: cursive;
+    font-size: 18px;
+  }
+  .sub-footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  .links{
+    margin-top: 27px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .links a{
+    margin-top: 25px;
+    font-size: 27px;
+    margin-left: 30px;
+    color: goldenrod;
+    cursor: pointer;
+  }
