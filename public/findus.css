@@ -58,23 +58,33 @@
   }
 
 /* 
-  about Section
+  find Us Section
 */
-.about{
+.find{
     text-align: center;
-    background-color: #970e0f;
+    height: 700px;
+  width: 100%;
+  background-image: url('../assets/images/FindUs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.about-us{
-    background-color: #970e0f;
+.find-us{
     height: 100%;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-right: 200px;
-    
     font-family: "Cedarville Cursive", cursive;
-  font-style: normal;
-  font-size: 20px;
-  color: white;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    text-align: center;
     
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
 }
 
 
