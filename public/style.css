@@ -1,0 +1,239 @@
+/*-----------------------------------*\
+  #index.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2024 theamritraj
+ */
+
+ .cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ *{
+    
+    padding: 0;
+    margin: 0;
+    /* background-image: url(../assets/images/Banner.jpg); */
+
+ }
+ header{
+  height: 780px;
+  width: 100%;
+  background-image: url('../assets/images/Banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+nav{
+  position: sticky;
+  top: 0px;
+}
+
+ a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+
+ }
+ a:hover{
+  color: #E06464;
+ }
+
+.top{
+  font-family:arial,san sans-serif;
+  font-size: 20px;
+  height: 60px;
+  text-align: center;
+  padding: 13px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #00000017;
+  color: #666666;
+
+    
+}
+
+/* #hero */
+.hero{
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  background-image: url(../assets/images/Thancos-Web-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content:space-around;
+}
+.quality, .award{
+  font-family: "Cedarville Cursive", cursive;
+  font-style: normal;
+  font-size: 22px;
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-top: 50px;
+}
+p{
+  font-size: 23px;
+  font-style: cursive;
+  font-family: sans-serif cursive;
+  font-style: normal;
+  color: maroon;
+  margin-bottom: 5px;
+}
+
+
+/* 
+  section-Ahed
+*/
+
+.section-ahed{
+  background-image: url(../assets/images/Thancos-Web-Flav-bg.jpg);
+  color: white;
+  height: 800px;
+  width: 100%;
+  margin-top: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-ahed1, .section-ahed2, .section-ahed3{
+  background-image: url(../assets/images/Flavours.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 300px;
+  margin-top: 120px;
+}
+.section-ahed2{
+  background-image: url(../assets/images/Stores.png);
+}
+.section-ahed3{
+  background-image: url(../assets/images/Franchise.png);
+}
+.para{
+  margin-top: 90px;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 18px; 
+}
+
+#paragraph{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 33px;
+}
+
+/* 
+  Suggest A Flavour Now
+*/
+
+.forms{
+  height: 420px;
+  background-image: url(../assets/images/Thancos-Web-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.formBody{
+  margin-left: 300px;
+  margin-right: 120px
+}
+
+.forms h2 {
+  margin-bottom: 20px;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 25px;
+  color: white;
+  
+}
+
+.forms label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.forms input,
+.forms textarea {
+  width: calc(90%);
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: inherit;
+}
+
+.forms input::placeholder,
+.forms textarea::placeholder {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background-color:inherit;
+  border: 1px solid gold;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forms button:hover {
+  background-color: inherit;
+  cursor: pointer;
+  
+}
+
+/* 
+  footer-Section
+*/
+.contact-section{
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  color: white;
+  background: #222222;
+  
+
+}
+.div1, .div2, .div3{
+  height: 230px;
+  width: 250px;
+  margin-top: 70px;
+  font-family: cursive;
+  font-size: 18px;
+}
+.sub-footer{
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.links{
+  margin-top: 27px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.links a{
+  margin-top: 25px;
+  font-size: 27px;
+  margin-left: 30px;
+  color: goldenrod;
+  cursor: pointer;
+}
