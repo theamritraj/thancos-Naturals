@@ -24,8 +24,9 @@
     background-color: #96bb2b;
     
   }
-  nav{
-    position: sticky;
+  .top{
+    background-color: aliceblue;
+    position: fixed;
     top: 0px;
   }
   
@@ -53,7 +54,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: #00000017;
+    background-color: #d8d815ef;
     color: #666666;  
   }
 
