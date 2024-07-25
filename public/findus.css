@@ -24,10 +24,14 @@
     background-color: #96bb2b;
     
   }
-  .top{
-    background-color: aliceblue;
+  nav{
     position: fixed;
     top: 0px;
+    width: 100vw;
+  }
+  
+  .top{
+    background-color: aliceblue;
   }
   
   .top a{
@@ -51,9 +55,6 @@
     text-align: center;
     padding: 13px;
     font-weight: bold;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     background-color: #d8d815ef;
     color: #666666;  
   }
@@ -62,6 +63,8 @@
   find Us Section
 */
 .find{
+  display: flex;
+  justify-content: center;
     text-align: center;
     height: 700px;
   width: 100%;
