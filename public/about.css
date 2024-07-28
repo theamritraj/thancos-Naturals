@@ -77,6 +77,9 @@
   color: white;
     
 }
+#text-align{
+  text-align: justify;
+}
 /* h1{
   margin-top: 100px;
 } */
